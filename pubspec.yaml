@@ -65,7 +65,11 @@ flutter:
          - assets/twitter1.png
          - assets/facebook.png
          - assets/dp.jpg
-
+         - assets/dp2.jpg
+         - assets/av1.jpg
+         - assets/av2.jpg
+         - assets/av3.jpg
+         - assets/av4.jpg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 

@@ -165,7 +165,8 @@ class LoginPageReplica extends StatelessWidget {
   Widget textFieldDesign({
     required IconData icon,
     required String hintText,
-  }) {
+  }) 
+  {
     return Stack(
       clipBehavior: Clip.none,
       children: [
