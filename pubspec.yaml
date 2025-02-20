@@ -72,6 +72,7 @@ flutter:
          - assets/av3.jpg
          - assets/av4.jpg
          - assets/burger.png
+         - assets/barcode.jpg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 

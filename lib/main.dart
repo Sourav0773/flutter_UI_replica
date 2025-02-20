@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ui_replica/profile_using_dio.dart';
+import 'package:ui_replica/event.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: Profile(),
+      home: Event(),
     );
   }
 }
