@@ -262,7 +262,7 @@ class Cycle extends StatelessWidget {
               height: 50,
               width: 150,
               child: Center(
-                child: const Text(
+                child: Text(
                   '₹10,000',
                   style: TextStyle(
                     color: Colors.blue,
