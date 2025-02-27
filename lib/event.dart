@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Event extends StatelessWidget {
+class Event extends StatefulWidget {
   const Event({super.key});
 
+  @override
+  State<Event> createState() => _EventState();
+}
+
+class _EventState extends State<Event> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -411,7 +416,7 @@ class Event extends StatelessWidget {
                     left: 24,
                     top: 53,
                     child: const Text(
-                      'Reservation ID: 5152R Time: ..',
+                      'Reservation ID: 5152R Time: .',
                       style: TextStyle(
                         fontSize: 18,
                         color: Color.fromARGB(255, 96, 94, 94),
