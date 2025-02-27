@@ -62,7 +62,7 @@ class Cycle extends StatelessWidget {
           Positioned(
             top: 57,
             left: 110,
-            child: Text(
+            child: const Text(
               'HERO CYCLE - LRO1',
               style: TextStyle(
                 color: Colors.white,
@@ -107,7 +107,7 @@ class Cycle extends StatelessWidget {
             child: Row(
               children: [
                 Container(
-                  padding: EdgeInsets.symmetric(vertical: 12, horizontal: 24),
+                  padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 24),
                   decoration: BoxDecoration(
                     color: const Color.fromARGB(255, 51, 51, 78),
                     borderRadius: BorderRadius.circular(15),
@@ -124,7 +124,7 @@ class Cycle extends StatelessWidget {
                       )
                     ],
                   ),
-                  child: Text(
+                  child: const Text(
                     'Description',
                     style: TextStyle(
                         color: Colors.blue, fontWeight: FontWeight.bold),
@@ -132,7 +132,7 @@ class Cycle extends StatelessWidget {
                 ),
                 const SizedBox(width: 40),
                 Container(
-                  padding: EdgeInsets.symmetric(vertical: 12, horizontal: 24),
+                  padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 24),
                   decoration: BoxDecoration(
                     color: const Color.fromARGB(255, 51, 51, 78),
                     borderRadius: BorderRadius.circular(15),
@@ -151,10 +151,10 @@ class Cycle extends StatelessWidget {
                       )
                     ],
                   ),
-                  child: Text(
+                  child: const Text(
                     'Specification',
                     style: TextStyle(
-                      color: const Color.fromARGB(255, 196, 194, 194),
+                      color: Color.fromARGB(255, 196, 194, 194),
                     ),
                   ),
                 ),
@@ -164,7 +164,7 @@ class Cycle extends StatelessWidget {
           Positioned(
             top: 480,
             left: 30,
-            child: Text(
+            child: const Text(
               'HERO CYCLE - LR01',
               style: TextStyle(
                 color: Colors.white,
@@ -180,12 +180,12 @@ class Cycle extends StatelessWidget {
               width: 400,
               child: Padding(
                 padding: EdgeInsets.only(right: 25),
-                child: Text(
+                child: const Text(
                   "When you're looking for cycles in India, give your child safe and reliable bikes with Hero Kids Bicycles. These bikes come with lightweight frames that are easy for kids to handle, fun to ride and feature adjustable saddles and handlebars that can be customized to fit their growing bodies. Cycles are one of the most eco-friendly modes of transport.",
                   maxLines: 9,
                   overflow: TextOverflow.ellipsis,
                   style: TextStyle(
-                      color: const Color.fromARGB(255, 183, 180, 180),
+                      color:  Color.fromARGB(255, 183, 180, 180),
                       fontSize: 17),
                 ),
               ),
@@ -196,13 +196,13 @@ class Cycle extends StatelessWidget {
             child: Container(
               height: 110,
               width: 432,
-              margin: EdgeInsets.only(top: 20),
-              padding: EdgeInsets.symmetric(horizontal: 20, vertical: 30),
+              margin: const EdgeInsets.only(top: 20),
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 30),
               decoration: BoxDecoration(
                 color: const Color.fromARGB(255, 34, 34, 59),
                 border: Border(
                   top: BorderSide(
-                    color: Color.fromARGB(255, 46, 46, 68),
+                    color: const Color.fromARGB(255, 46, 46, 68),
                     width: 2,
                   ),
                 ),
@@ -245,7 +245,7 @@ class Cycle extends StatelessWidget {
                 ),
               ),
               child: Center(
-                child: Text(
+                child: const Text(
                   'Add to cart',
                   style: TextStyle(
                     color: Colors.white,
@@ -258,11 +258,11 @@ class Cycle extends StatelessWidget {
           Positioned(
             bottom: 25,
             left: 20,
-            child: SizedBox(
+            child: const SizedBox(
               height: 50,
               width: 150,
               child: Center(
-                child: Text(
+                child: const Text(
                   '₹10,000',
                   style: TextStyle(
                     color: Colors.blue,

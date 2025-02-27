@@ -38,6 +38,10 @@ dependencies:
   dio: ^5.8.0+1
   smooth_page_indicator: ^1.2.1
   flutter_inset_shadow: ^2.0.3
+  glassmorphism: ^3.0.0
+  glass_kit: ^4.0.1
+  glassmorphism_widgets: ^0.2.2
+  glassmorphism_ui: ^0.3.0
 
 dev_dependencies:
   flutter_test:

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ui_replica/cycle.dart';
+import 'package:ui_replica/cycle1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: Cycle(),
+      home: Cycle1(),
     );
   }
 }
