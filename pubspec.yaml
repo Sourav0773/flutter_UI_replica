@@ -83,6 +83,7 @@ flutter:
          - assets/cycle2.png
          - assets/cycle3.png
          - assets/cycle1.png
+         - assets/helmet.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
